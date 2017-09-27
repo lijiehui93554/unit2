@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: .14rem; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%; }
+
+body {
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+html {
+  font-size: 625%; }
+
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .box header {
+    width: 100%; }
+  .box section {
+    width: 100%;
+    flex: 1;
+    overflow-y: scroll; }
+  .box footer {
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
